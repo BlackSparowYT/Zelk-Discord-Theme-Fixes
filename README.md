@@ -12,8 +12,8 @@ Edit the theme and add this line after the other @imports in the zelk theme.
 @import url(https://blacksparowyt.github.io/Zelk-Discord-Theme/main-fixes.css);
 ```
 
-## Compatebilty with other plugins?
-These fixes have compatebilty with other plugins. current it supports: Radial Status & Show Badges In Chat.
+## Compatibility with other plugins?
+These fixes have compatibility with other plugins. current it supports: Radial Status & Show Badges In Chat.
 
 
 ### Radial Status:
@@ -29,7 +29,6 @@ To add the fixes for radial status add this line:
 @import url(https://blacksparowyt.github.io/Zelk-Discord-Theme/sbic-fixes.css);
 ```
 after the intial @import. Also make sure you have installed the radial status theme!
-
 
 
 ## Your help!
