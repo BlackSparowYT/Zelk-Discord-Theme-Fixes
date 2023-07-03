@@ -1,0 +1,33 @@
+/** Home || Chat || Avatar / Status (radial status better visible) **/
+
+.avatar-1HDIsL {
+  background-color: var(--background-primary);
+  padding: 4px;
+  border-radius: 1000px;
+  margin-right: 8px;
+}
+
+.linkButtonIcon-7rsZcu {
+  color: #929292;
+}
+
+/** Home || Chat || TOP Bar (radial status bug) **/
+
+.children-3xh0VB,
+.toolbar-3_r2xA {
+  height: 100%;
+}
+
+
+/** Settings || My Account || banner fix (radial status bug) **/
+
+/* Outdated but leaving it in just to be sure */
+.avatar-3mTjvZ::before,
+.avatar-2Vndt_::before {
+  background-color: transparent;
+}
+
+/* Updated version! */
+.bannerSVGWrapper-2CLfzN mask circle {
+  fill: transparent !important;
+}
