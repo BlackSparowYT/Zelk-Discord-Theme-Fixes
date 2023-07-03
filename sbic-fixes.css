@@ -1,0 +1,8 @@
+/** Home || Chat || DM's (Show badges in chat fix) **/
+
+.interactiveSelected-29CP8y .badges-XRnWAp {
+  background-color: var(--background-tertiary);
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+}
