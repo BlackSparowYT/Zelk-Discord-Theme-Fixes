@@ -1,4 +1,4 @@
-# Zelk-Discord-Theme
+# Zelk Discord Theme Fixes
 A repository for the bugs that are fixed in the Zelk theme for better discord!
 
 
