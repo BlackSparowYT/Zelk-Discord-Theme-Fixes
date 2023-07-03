@@ -9,7 +9,7 @@ In the current zelk theme there are quite a lot of bugs that mostly likely wont 
 Make sure you have the zelk theme installed in better discord. 
 Edit the theme and add this line after the other @imports in the zelk theme.
 ```
-@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme/main-fixes.css);
+@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/main-fixes.css);
 ```
 
 ## Compatebilty with other plugins?
@@ -19,14 +19,14 @@ These fixes have compatebilty with other plugins. current it supports: Radial St
 ### Radial Status:
 To add the fixes for radial status add this line:
 ```
-@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme/radialstatus-fixes.css);
+@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/radialstatus-fixes.css);
 ```
 after the intial @import. Also make sure you have installed the radial status theme!
 
 ### SBIC (Show Badges In Chat):
 To add the fixes for radial status add this line:
 ```
-@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme/sbic-fixes.css);
+@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/sbic-fixes.css);
 ```
 after the intial @import. Also make sure you have installed the radial status theme!
 
@@ -40,13 +40,13 @@ Want support for another plugin? Again open a issue here!
 ## Known Issues
 I would always appricate you guys helping me fix these issues!
 
-![image](https://github.com/BlackSparowYT/Zelk-Discord-Theme/assets/117974776/3d5a66a0-9554-4766-bc30-cb8fb236a003)
+![image](https://github.com/BlackSparowYT/Zelk-Discord-Theme-Fixes/assets/117974776/3d5a66a0-9554-4766-bc30-cb8fb236a003)
 
 Its known that these borders arent rounded, i am still looking for a fix.
 
 
 
-![image](https://github.com/BlackSparowYT/Zelk-Discord-Theme/assets/117974776/d3075268-3c70-4b50-9d2b-08c98572b70b)
+![image](https://github.com/BlackSparowYT/Zelk-Discord-Theme-Fixes/assets/117974776/d3075268-3c70-4b50-9d2b-08c98572b70b)
 
 Its known that there is a weird black bar above the chat in a forum. Still looking for a fix!
 
