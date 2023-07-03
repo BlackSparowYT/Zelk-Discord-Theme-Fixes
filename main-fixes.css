@@ -99,8 +99,8 @@
 
 /** Server || Chat **/
 
-.divider-2rZFJK {
-  border-top: 1px solid #fb7c7c;
+.isUnread-3Lojb- {
+  border-top: 1px solid #fb7c7c !important;
 }
 
 
@@ -226,14 +226,14 @@
 
 /** Settings || Button fix **/
 
-.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
-.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+.themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
   color: var(--background-primary);
   transition: all .3s;
 }
 
-.side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl),
-.topPill-2vcLsa .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
+.themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl),
+.themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
   color: var(--button-accent-hover);
   transition: all .3s;
 }
