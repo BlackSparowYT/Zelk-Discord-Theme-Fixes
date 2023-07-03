@@ -40,7 +40,7 @@
 }
 
 
-/** Home || Chat || Name Coloring **/
+/** Home || DMS || Chat || Name Coloring **/
 
 .username-h_Y3Us {
   color: var(--button-accent-hover);
@@ -54,14 +54,14 @@
 }
 
 
-/** Home || Chat || User name when new message **/
+/** Home || DMS || Chat || User name when new message **/
 
 .highlighted-Q8Nll- {
   color: var(--background-primary);
 }
 
 
-/** Home || Chat || Screen share buttons in call **/
+/** Home || DMS || Chat || Screen share buttons in call **/
 
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
@@ -95,11 +95,16 @@
 
 
 
+/* Server */
+
+/** Server || Chat **/
+
+.divider-2rZFJK {
+  border-top: 1px solid #fb7c7c;
+}
 
 
-/* Forums */
-
-/** Forums || Main content **/
+/** Server || Forums || Main content **/
 
 .content-1jQy2l {
   margin-left: 10px;
@@ -112,7 +117,7 @@
 }
 
 
-/** Forums || Posts **/
+/** Server || Forums || Posts **/
 
 .container-JhuCwn {
   background: var(--background-tertiary);
@@ -124,7 +129,7 @@
 }
 
 
-/** Forums || Posts || Post Chat **/
+/** Server || Forums || Posts || Post Chat **/
 
 .chatContent-3KubbW {
   margin-bottom: 0;
