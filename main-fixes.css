@@ -1,0 +1,171 @@
+/* HOME */
+
+/** Home || Popup addon errors **/
+
+.bd-tab-item.selected {
+  color: var(--background-primary);
+  transition: all .3s;
+}
+
+.bd-tab-item:hover {
+  cursor: pointer;
+  color: var(--button-accent-hover);
+  transition: all .3s;
+}
+
+/** Home || Streamer mode bar **/
+
+.colorStreamerMode-8uoRWd .button-1iHNQ2 {
+  background-color: var(--button-accent-active) !important;
+  color: var(--background-primary);
+  transition: all .3s;
+}
+
+.colorStreamerMode-8uoRWd .button-1iHNQ2:hover {
+  color: var(--button-accent-hover);
+  background: var(--background-modifier-hover) !important;
+  transition: all .3s;
+}
+
+
+/** Home || Chat || Name Coloring **/
+
+.username-h_Y3Us {
+  color: var(--button-accent-hover);
+  transition: all .3s;
+}
+
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background-color: var(--background-modifier-hover);
+  color: var(--button-accent-hover);
+  transition: all .3s;
+}
+
+
+/** Home || Chat || User name when new message **/
+
+.highlighted-Q8Nll- {
+  color: var(--background-primary);
+}
+
+
+/** Home || Chat || Screen share buttons in call **/
+
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+  background-color: var(--accent-color);
+  color: var(--background-primary);
+  transition: all .3s;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX:hover,
+.button-1EGGcP .buttonColor-3bP3fX:hover {
+  background-color: var(--background-tertiary);
+  color: var(--button-accent-hover);
+  transition: all .3s;
+}
+
+
+
+
+
+/* SETTINGS */
+
+/** Settings || Button fix **/
+
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+  color: var(--background-primary);
+  transition: all .3s;
+}
+
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl),
+.topPill-2vcLsa .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
+  color: var(--button-accent-hover);
+  transition: all .3s;
+}
+
+.item-1TA5qI[aria-checked=true] {
+  color: var(--background-primary);
+  transition: all .3s;
+}
+
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  color: var(--background-primary);
+}
+
+
+/** Settings || Profiles || emoji button **/
+
+.webkit-QgSAqd .buttons-uaqb-5 {
+  margin-right: 0;
+}
+
+
+/** Settings || Connections || Popup **/
+
+.content-1OG56Q {
+  background-color: var(--background-primary);
+}
+
+.accountBtn-1-d0rV,
+.accountBtnInner-1DCgBm {
+  background-color: var(--background-tertiary);
+  transition: all .3s;
+}
+
+.accountBtn-1-d0rV,
+.accountBtnInner-1DCgBm:hover {
+  background-color: var(--background-secondary);
+  transition: all .3s;
+}
+
+
+
+/** Settings || Voice & Video || Dropdowns **/
+
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+  color: var(--background-secondary);
+  transition: all .3s;
+}
+
+
+
+/** Settings || Registered Games || Now Playing **/
+
+.theme-dark .nowPlaying-3UpuKc .gameName-zbZetm,
+.theme-light .nowPlaying-3UpuKc .gameName-zbZetm {
+  color: var(--background-primary);
+}
+
+.theme-dark .nowPlaying-3UpuKc .lastPlayed-1jum9A,
+.theme-dark .nowPlaying-3UpuKc .overlayStatusText-In0YrK,
+.theme-light .nowPlaying-3UpuKc .lastPlayed-1jum9A,
+.theme-light .nowPlaying-3UpuKc .overlayStatusText-In0YrK {
+  color: var(--background-primary);
+}
+
+
+.theme-dark .nowPlaying-3UpuKc .overlayToggleIconOff-ps4gGp,
+.theme-dark .nowPlaying-3UpuKc .overlayToggleIconOn-21NN2N,
+.theme-light .nowPlaying-3UpuKc .overlayToggleIconOff-ps4gGp,
+.theme-light .nowPlaying-3UpuKc .overlayToggleIconOn-21NN2N {
+  fill: var(--green-230);
+  background-color: var(--background-primary);
+  border-radius: 5px;
+  padding: 1px;
+}
+
+
+/** Settings || Updates || Changelog popup **/
+
+.modal-3Hrb0S {
+  overflow: hidden;
+}
+
+.content-1OG56Q {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: var(--background-primary);
+  color: hsl(210,calc(var(--saturation-factor, 1)*9.3%),78.8%);;
+}
