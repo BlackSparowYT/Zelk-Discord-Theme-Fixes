@@ -13,6 +13,18 @@
   transition: all .3s;
 }
 
+
+/** Home || User Menu **/
+
+.menu-2TXYjN .scroller-nxCRu_ {
+  padding: 6px 8px !important;
+}
+
+.colorDefault-2_rLdz .focused-3LIdPu {
+  background-color: var(--button-accent-hover);
+}
+
+
 /** Home || Streamer mode bar **/
 
 .colorStreamerMode-8uoRWd .button-1iHNQ2 {
