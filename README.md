@@ -35,3 +35,8 @@ after the intial @import. Also make sure you have installed the radial status th
 ## Your help!
 If you find any bugs in the Zelk theme open a issue here so we can add it!!! 
 Want support for another plugin? Again open a issue here!
+
+
+## Known Issues
+![image](https://github.com/BlackSparowYT/Zelk-Discord-Theme/assets/117974776/3d5a66a0-9554-4766-bc30-cb8fb236a003)
+Its known that these borders arent rounded, i am still looking for a fix.
