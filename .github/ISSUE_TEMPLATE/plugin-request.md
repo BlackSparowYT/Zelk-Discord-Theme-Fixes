@@ -2,7 +2,7 @@
 name: Plugin request
 about: Request a plugin to add to the theme that needs fixing
 title: "[PR] "
-labels: ''
+labels: plugin request
 assignees: BlackSparowYT
 
 ---
