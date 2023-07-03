@@ -13,6 +13,18 @@
   transition: all .3s;
 }
 
+
+/** Home || User Menu **/
+
+.menu-2TXYjN .scroller-nxCRu_ {
+  padding: 6px 8px !important;
+}
+
+.colorDefault-2_rLdz.focused-3LIdPu {
+  background-color: var(--button-accent) !important;
+}
+
+
 /** Home || Streamer mode bar **/
 
 .colorStreamerMode-8uoRWd .button-1iHNQ2 {
@@ -64,6 +76,142 @@
   color: var(--button-accent-hover);
   transition: all .3s;
 }
+
+
+/** Home || User Menu **/
+
+.menu-2TXYjN .scroller-nxCRu_ {
+  padding: 6px 8px !important;
+}
+
+.colorDefault-2_rLdz.focused-3LIdPu {
+  background-color: var(--button-accent) !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Forums */
+
+/** Forums || Main content **/
+
+.content-1jQy2l {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.container-3wLKDe {
+  background: var(--background-primary);
+  border-radius: var(--border-radius-1);
+}
+
+
+/** Forums || Posts **/
+
+.container-JhuCwn {
+  background: var(--background-tertiary);
+  border-radius: var(--border-radius-1);
+}
+
+.card-2JNtco:not(.headerRow-1MKoR-) .mainCard-3KBsBI {
+  background: var(--background-tertiary);
+}
+
+
+/** Forums || Posts || Post Chat **/
+
+.chatContent-3KubbW {
+  margin-bottom: 0;
+  border-radius: var(--border-radius-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* User Profile */
+
+/** User Profile || Main Tab **/
+
+.focusLock-bHVOlV {
+  min-height: fit-content;
+  max-width: 100%;
+}
+
+.root-8LYsGj, .profileBanner-1owKI5, .profileBannerPremium-KD60EB, .bannerOverlayProfile-31VOgt {
+  width: fit-content;
+  height: fit-content;
+}
+
+.focusLock-bHVOlV .bannerSVGWrapper-2CLfzN {
+  min-height: 210px !important;
+  width: 100%;
+}
+
+
+/** User Profile || Tab Items **/
+
+.tabBarItem-30Te4- {
+  height: fit-content;
+  margin-bottom: 10px;
+}
+
+
+/** User Profile || User Info **/
+
+.infoScroller-1QMpon {
+  padding: 0 12px !important;
+}
+
+.userInfoSectionHeader-2mYYun {
+  font-weight: 800;
+}
+
+.connectedAccountContainer-3aLMHJ {
+  border: 1px solid var(--accent-color) !important;
+}
+
+
+/** User Profile || Mutual Servers / Friends **/
+
+.listScroller-entkMk {
+  padding: 12px 0;
+  height: 100%;
+  width: calc(100% - 24px);
+}
+
+.listRow-2nO1T6 {
+  margin: 2px 0;
+  border-radius: var(--border-radius-1);
+}
+
+.listAvatar-2bU5Uh {
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
