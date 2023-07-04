@@ -4,6 +4,7 @@ A repository for the bugs that are fixed in the Zelk theme for better discord!
 
 ## How does it work?
 In the current zelk theme there are quite a lot of bugs that mostly likely wont be updated. So i have made this repository to fix these bugs. its really simple as it can be fixed with just a few lines of CSS.
+Make sure to check out the original Zelk theme over here: https://betterdiscord.app/theme/Zelk
 
 ## How do i use it?
 Make sure you have the zelk theme installed in better discord. 
