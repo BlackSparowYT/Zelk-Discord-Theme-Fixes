@@ -40,6 +40,13 @@
 }
 
 
+/** Home || DMS || New DM's **/
+
+.highlighted-Q8Nll- {
+  color: var(--button-accent-hover);
+}
+
+
 /** Home || DMS || Chat || Name Coloring **/
 
 .username-h_Y3Us {
@@ -171,6 +178,10 @@
 .tabBarItem-30Te4- {
   height: fit-content;
   margin-bottom: 10px;
+}
+
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy {
+    color: var(--button-accent-hover);
 }
 
 
