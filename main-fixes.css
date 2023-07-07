@@ -1,6 +1,26 @@
-/* HOME */
+/* General */
 
-/** Home || Popup addon errors **/
+/** General || Popup **/
+
+.theme-dark .rootWithShadow-2hdL2J .header-1LEkUo,
+.theme-dark .rootWithShadow-2hdL2J .headerContainer-3Hja2u,
+.theme-dark .rootWithShadow-2hdL2J .footerSeparator-3U8YsT {
+  background-color: var(--background-primary);
+}
+
+.theme-dark .rootWithShadow-2hdL2J .headerContainer-3Hja2u,
+.theme-dark .rootWithShadow-2hdL2J .header-1LEkUo {
+  margin-bottom: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #23272a;
+}
+
+.theme-dark .rootWithShadow-2hdL2J .content-1OG56Q {
+  border-radius: 0;
+}
+
+
+/** General || Popup addon errors **/
 
 .bd-tab-item.selected {
   color: var(--background-primary);
@@ -13,6 +33,19 @@
   transition: all .3s;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME */
 
 /** Home || User Menu **/
 
@@ -95,16 +128,63 @@
 
 
 
-/* Server */
+/* Servers */
 
-/** Server || Chat **/
+/** Servers || Dropdown **/
+
+.colorBrand-26tvUE {
+  color: var(--button-accent-hover);
+}
+
+
+/** Servers || Settings || Edit Role || Role button highlighted **/
+
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy .text-sm-medium-2-Xzsi {
+  color: var(--background-primary) !important;
+  transition: all .3s;
+}
+
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy:hover .text-sm-medium-2-Xzsi {
+  color: var(--button-accent-hover) !important;
+  transition: all .3s;
+}
+
+
+/** Servers || Channels || Hover over channel **/
+
+.modeSelected-3DmyhH .link-1_kTxV {
+  transition: all .3s;
+}
+
+.modeSelected-3DmyhH:hover .link-1_kTxV {
+  background-color: var(--background-tertiary) !important;
+  transition: all .3s;
+}
+
+
+.modeSelected-3DmyhH .name-28HaxV,
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH .actionIcon-2sw4Sl {
+  color: var(--background-primary) !important;
+  transition: all .3s;
+}
+
+.modeSelected-3DmyhH:hover .name-28HaxV,
+.modeSelected-3DmyhH:hover .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .actionIcon-2sw4Sl {
+  color: var(--button-accent-hover) !important;
+  transition: all .3s;
+}
+
+
+/** Servers || Chat **/
 
 .isUnread-3Lojb- {
   border-top: 1px solid #fb7c7c !important;
 }
 
 
-/** Server || Forums || Main content **/
+/** Servers || Forums || Main content **/
 
 .content-1jQy2l {
   margin-left: 10px;
@@ -117,7 +197,7 @@
 }
 
 
-/** Server || Forums || Posts **/
+/** Servers || Forums || Posts **/
 
 .container-JhuCwn {
   background: var(--background-tertiary);
@@ -129,7 +209,7 @@
 }
 
 
-/** Server || Forums || Posts || Post Chat **/
+/** Servers || Forums || Posts || Post Chat **/
 
 .chatContent-3KubbW {
   margin-bottom: 0;
