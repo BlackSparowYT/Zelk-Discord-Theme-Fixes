@@ -3,13 +3,17 @@
 /** General || Popup **/
 
 .theme-dark .rootWithShadow-2hdL2J .header-1LEkUo,
-.theme-dark .rootWithShadow-2hdL2J .headerContainer-3Hja2u,
-.theme-dark .rootWithShadow-2hdL2J .footerSeparator-3U8YsT {
-  background-color: var(--background-primary);
-}
+.theme-dark .rootWithShadow-2hdL2J .header-1ffhsl,
 
 .theme-dark .rootWithShadow-2hdL2J .headerContainer-3Hja2u,
-.theme-dark .rootWithShadow-2hdL2J .header-1LEkUo {
+.theme-dark .rootWithShadow-2hdL2J .footerSeparator-3U8YsT {
+  background-color: var(--background-primary) !important;
+}
+
+.theme-dark .rootWithShadow-2hdL2J .header-1LEkUo,
+.theme-dark .rootWithShadow-2hdL2J .header-1ffhsl,
+
+.theme-dark .rootWithShadow-2hdL2J .headerContainer-3Hja2u {
   margin-bottom: 0;
   padding-bottom: 8px;
   border-bottom: 1px solid #23272a;
@@ -17,6 +21,77 @@
 
 .theme-dark .rootWithShadow-2hdL2J .content-1OG56Q {
   border-radius: 0;
+}
+
+
+/** General || Popup || Invite **/
+
+.scroller-1xACMA {
+  background-color: var(--background-primary);  
+  max-height: 300px;
+  padding: 8px 12px 0 12px;
+  padding-right: 12px;
+}
+
+.inviteRow-2Vjla6 {
+  max-width: 100%;
+  margin-right: 12px;
+}
+
+.settingsContent-1BWQwf {
+  background-color: var(--background-primary);  
+}
+
+
+/** General || Popup || Create Channel **/
+
+.item-1TA5qI[aria-checked=true] .radioLabelName-3FiyYq {
+  color: var(--background-primary);
+  transition: all .3s;
+}
+
+.item-1TA5qI[aria-checked=true] .radioIconForeground-3wH3aU {
+  color: var(--background-primary);
+  transition: all .3s;
+}
+
+
+/** General || Popup || Create Event **/
+
+.selectedProgressBar-11z5d9 {
+  background-color: var(--button-accent-hover) !important;
+}
+
+.selectedProgressBar-11z5d9 + .size12-12FL_s {
+  color: var(--button-accent-hover) !important;
+}
+
+
+/** General || Popup || Event Details **/
+
+.container-3EBHNg {
+  background-color: var(--background-primary);
+}
+
+.tabBarItem-30Te4-,
+.tabBarItem-2aZfB8 {
+  height: fit-content;
+  margin-bottom: 10px;
+  transition: all .3s;
+  padding-bottom: 0;
+}
+
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.tabBarItem-30Te4-,
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.tabBarItem-2aZfB8 {
+  color: var(--accent-color) !important;
+  transition: all .3s;
+}
+
+
+/** General || Popup || Servers || Settings || Onboarding || Add question answer **/
+
+.container-1ySPEn {
+  background-color: var(--background-primary);
 }
 
 
@@ -33,6 +108,15 @@
   transition: all .3s;
 }
 
+
+/** General || Memberlist **/
+
+.clickable-28SzVr.container-1oeRFJ:hover {
+  border-radius: 1px;
+  height: 44px;
+  padding: 1px 0;
+  overflow: hidden;
+}
 
 
 
