@@ -29,7 +29,7 @@ To add the fixes for radial status add this line:
 ```
 @import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/sbic-fixes.css);
 ```
-after the intial @import. Also make sure you have installed the radial status theme!
+after the intial @import. Also make sure you have installed the Show Badges In Chat Plugin!
 
 
 ## Your help!
