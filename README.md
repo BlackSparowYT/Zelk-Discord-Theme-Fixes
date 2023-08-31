@@ -48,5 +48,6 @@ Its known that these borders arent rounded, i am still looking for a fix.
 
 ![image](https://github.com/BlackSparowYT/Zelk-Discord-Theme-Fixes/assets/117974776/d3075268-3c70-4b50-9d2b-08c98572b70b)
 
-Its known that there is a weird black bar above the chat in a forum. Still looking for a fix!
+~~Its known that there is a weird black bar above the chat in a forum. Still looking for a fix!~~
+This is now fixed, thank you lanye74 for finding the issue!
 
