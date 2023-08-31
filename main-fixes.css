@@ -6,7 +6,6 @@
   pointer-events: none;
 }
 
-
 /** General || Popup **/
 
 .theme-dark .rootWithShadow-2hdL2J .header-1LEkUo,
@@ -279,6 +278,30 @@
 
 .isUnread-3Lojb- {
   border-top: 1px solid #fb7c7c !important;
+}
+
+
+/** Servers || Forums || Forum blocks **/
+
+.container-3wvkMY {
+border: 1px solid var(--background-modifier-hover);
+}
+
+
+/** Servers || Forums || Clicked forum block **/
+
+.container-3wvkMY:active {
+  border: 3px solid var(--background-modifier-selected);
+  background-color: var(--background-primary);
+}
+
+
+/** Servers || Forums || Active forum block **/
+
+.theme-dark .container-3wvkMY.isOpen-2ldXbM {
+  box-sizing: border-box;
+  background-color: var(--background-primary);
+  border: 3px solid var(--background-modifier-selected);
 }
 
 
