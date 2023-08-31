@@ -227,6 +227,12 @@
 }
 
 
+/** Servers || Browse Channels **/
+.theme-dark .container-2IKOsH {
+  background-color: var(--background-tertiary);
+}
+
+
 /** Servers || Settings || Edit Role || Role button highlighted **/
 
 .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy .text-sm-medium-2-Xzsi {
@@ -519,4 +525,63 @@ border: 1px solid var(--background-modifier-hover);
   padding-bottom: 15px;
   background-color: var(--background-primary);
   color: hsl(210,calc(var(--saturation-factor, 1)*9.3%),78.8%);;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**/  /** USER IMPLEMENTATIONS **/  /**/
+
+
+
+
+/** Lanye74 | https://github.com/schnensch0/zelk/pull/51 **/
+
+/* New thread menu */
+section[aria-label="Create Thread"] .messagesWrapper-1AttHb {
+	background-color: var(--background-1);
+	border-radius: var(--border-radius-1);
+}
+
+/* Fix off-color thread name input bar */
+#chat-messages-create-thread-null input {
+	background-color: var(--channeltextarea-background);
+}
+
+/* Make open thread button off of a message 'pop' more */
+div[aria-roledescription="Open Thread Button"] {
+	background: var(--background-2);
+	border-radius: var(--border-radius-2);
+}
+
+
+
+
+/** Lanye74 | https://github.com/schnensch0/zelk/pull/50 **/
+
+
+.tabBody-2dgbAs, .chat-2ZfjoI, .container-1NXEtd, .container-1oAagU, .privateChannels-oVe7HL, .homeWrapperNormal-bu1BS6 {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Server "home page", forum bg */
+.homeContainer-r4Hvv1, [data-list-id*="forum-channel-list-"] {
+  background-color: var(--background-2);
+}
+
+.chatContent-3KubbW[aria-label*="(thread)"] {
+  background-color: var(--background-1);
+  border-radius: var(--border-radius-1);
+}
+
+/* Annoying line above forum thread, home page channel popout */
+.chat-25x62K::before, .chat-3t9F_n::before {
+  content: unset;
 }
