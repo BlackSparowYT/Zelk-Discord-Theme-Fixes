@@ -184,13 +184,6 @@
 }
 
 
-/** Home || DMS || Chat || User name when new message **/
-
-.highlighted-Q8Nll- {
-  color: var(--background-primary);
-}
-
-
 /** Home || DMS || Chat || Screen share buttons in call **/
 
 .button-1EGGcP.buttonColor-3bP3fX,
@@ -351,25 +344,38 @@ border: 1px solid var(--background-modifier-hover);
 
 
 
-
-
 /* User Profile */
 
 /** User Profile || Main Tab **/
 
 .focusLock-bHVOlV {
-  min-height: fit-content;
+  min-height: 0px !important;
   max-width: 100%;
 }
 
-.root-8LYsGj, .profileBanner-1owKI5, .profileBannerPremium-KD60EB, .bannerOverlayProfile-31VOgt {
+.root-8LYsGj {
   width: fit-content;
   height: fit-content;
 }
 
 .focusLock-bHVOlV .bannerSVGWrapper-2CLfzN {
-  min-height: 210px !important;
+  min-height: 0px !important;
   width: 100%;
+}
+
+.avatar-3QF_VA {
+  position: absolute;
+  top: -68px;
+  left: 22px;
+  border: 5px solid var(--background-tertiary);
+}
+
+.mask-1y0tyc circle {
+  fill: var(--background-tertiary);
+}
+
+.focusLock-bHVOlV .bannerSVGWrapper-2CLfzN circle {
+  fill: transparent;
 }
 
 
@@ -416,14 +422,6 @@ border: 1px solid var(--background-modifier-hover);
 .listAvatar-2bU5Uh {
   margin-left: 5px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -542,10 +540,7 @@ border: 1px solid var(--background-modifier-hover);
 
 
 
-
-
 /**/  /** USER IMPLEMENTATIONS **/  /**/
-
 
 
 
