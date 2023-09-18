@@ -457,11 +457,42 @@ border: 1px solid var(--background-modifier-hover);
 }
 
 
+
 /** Settings || Profiles || emoji button **/
 
 .webkit-QgSAqd .buttons-uaqb-5 {
   margin-right: 0;
 }
+
+
+
+/** Settings || Family Centre || Block widths **/
+
+.max-width-2sPUCJ {
+  max-width: 100%;
+}
+
+.max-width-30Gozx {
+  max-width: calc(100%) !important;
+}
+
+.container-1iKw09.max-width-30Gozx > div:nth-child(1) {
+  width: 70%;
+}
+
+.container-3Ok1v9 {
+    max-width: 100%;
+}
+
+.contentPanel-2uDEUG {
+  background-color: var(--background-tertiary);
+}
+
+/** Family center in the sidebare above dms **/
+.sideNavContent-D1tzYo {
+  max-width: 100%;
+}
+
 
 
 /** Settings || Connections || Popup **/
