@@ -48,3 +48,9 @@ I would always appricate you guys helping me fix these issues!
 > ~~Its known that there is a weird black bar above the chat in a forum. Still looking for a fix!~~
 This is now fixed, thank you lanye74 for finding the issue!
 
+> ![image](https://github.com/BlackSparowYT/Zelk-Discord-Theme-Fixes/assets/117974776/0a7b217e-70a9-4b46-9838-639f003248bf)
+> Aware of this issue that the profile pictures get dimmed out
+
+> Also aware that multiple popups still have issues with backgrounds
+
+
