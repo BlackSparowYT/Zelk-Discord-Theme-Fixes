@@ -433,6 +433,15 @@ border: 1px solid var(--background-modifier-hover);
 
 /* SETTINGS */
 
+/** Settings || Account **/
+
+
+.bannerSVGWrapper-2CLfzN mask circle:not(.userPopoutInner-nv9Y92.userProfileInner-1ngKnf mask circle) {
+  display: none;
+}
+
+
+
 /** Settings || Button fix **/
 
 .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
