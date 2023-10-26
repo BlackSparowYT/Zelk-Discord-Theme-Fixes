@@ -16,7 +16,10 @@ Edit the theme and add this line after the other @imports in the zelk theme.
 
 ## Can i use this locally?
 If you rather not link to the github pages and want to use a local version that is possible.
-download the repository. save the files somewhere and copy the file path to it. Go to the zelk theme and replace the import for the github pages to the online files with the local filepath.  
+Download the repository and save the files somewhere. Copy the file path. Go to the zelk theme and replace the import for the github pages with the local filepath.  
+```
+@import url(replace_this_with_your_file_path);
+```
   
 I high suggest not doing this. The files get updated regularly and you will need to keep downloading the new versions yourself. Else they will get updated automatically!
 
