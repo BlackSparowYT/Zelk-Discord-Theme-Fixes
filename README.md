@@ -1,3 +1,7 @@
+# IMPORTANT CHANGE!!!
+As discord has recently pushed out a major update the zelk theme itself is now completely broken! I will need to wait till better discord itself is back to normal. After that i will see if it is possible for me to repair Zelk!
+
+
 # Zelk Discord Theme Fixes
 A repository for the bugs that are fixed in the Zelk theme for better discord!
 
