@@ -1,5 +1,5 @@
-# IMPORTANT CHANGE!!!
-As discord has recently pushed out a major update the zelk theme itself is now somewhat broken! I will need to wait till better discord itself is back to normal. After that i will see if it is possible for me to repair Zelk!
+> [!IMPORTANT]  
+> I make these fixes based on my own color scheme. I have seen some issues where running light colors can break this. I suggest not using any light accent colors! (FYI i run #3265a2 as my accent color)
 
 
 # Zelk Discord Theme Fixes
