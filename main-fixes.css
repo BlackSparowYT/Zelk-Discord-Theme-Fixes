@@ -659,20 +659,22 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
-
+/** TEMP CHANGES TO MAKE ZELK SOMEWHAT WORKING! **/
 
 
 
 .interactiveSelected_ec846b,
 .selected_d94cf9,
 .modeSelected__487d6 .name__8d1ec,
-.modeSelected__487d6:hover .name__8d1ec,
 .modeConnected__1c02e .name__8d1ec,
-.modeConnected__1c02e:hover .name__8d1ec,
-.modeUnread_f74c03 .name__8d1ec,
-.modeUnread_f74c03:hover .name__8d1ec,
-.modeUnread_f74c03 .icon_eff5d4, .modeUnread_f74c03:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4,
+.modeUnread_f74c03 .icon_eff5d4,
+.modeSelected__487d6 .icon_eff5d4,
 .topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda, .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda,
 .item_b7fb7e[aria-checked=true] {
-  color: var(--background-primary);
+    color: var(--background-primary);
+}
+
+.modeUnread_f74c03 .name__8d1ec,
+.modeUnread_f74c03 .icon_eff5d4 {
+    color: var(--accent-color);
 }
