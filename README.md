@@ -1,11 +1,9 @@
 > [!IMPORTANT]  
-> I make these fixes based on my own color scheme. I have seen some issues where running light colors can break this. I suggest not using any light accent colors! (FYI i run #3265a2 as my accent color)
+> I make these fixes based on my own color scheme. I have seen some issues where running light colors can break this. I suggest not using any light accent colors! (FYI i run #3265a2 as my accent color). Sometimes i try to check the other themes aswell but i cant always do it.
 
 
 # Zelk Discord Theme Fixes
 A repository for the bugs that are fixed in the Zelk theme for better discord!
-
-> Please note that this repo is developed using the blue theme with small tweaks from the original zelk theme. Even though i try to check out the other color schemes to make sure it doesnt causes issue it can still break.
 
 ## How does it work?
 In the current zelk theme there are quite a lot of bugs that mostly likely wont be updated. So i have made this repository to fix these bugs. its really simple as it can be fixed with just a few lines of CSS.
