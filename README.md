@@ -1,4 +1,8 @@
 > [!IMPORTANT]  
+> I am aware quite some stuff still doesnt work since the discord update. So please be patient and dont quickly make a issue. Its really tough for me to do anything since the dev menu is broken in the discord app.  
+> Oringial issue: https://github.com/BlackSparowYT/Zelk-Discord-Theme-Fixes/issues/21
+
+> [!IMPORTANT]  
 > I make these fixes based on my own color scheme. I have seen some issues where running light colors can break this. I suggest not using any light accent colors! (FYI i run #3265a2 as my accent color). Sometimes i try to check the other themes aswell but i cant always do it.
 
 
