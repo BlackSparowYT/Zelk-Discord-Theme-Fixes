@@ -1,6 +1,5 @@
 > [!IMPORTANT]  
-> I am aware quite some stuff still doesnt work since the discord update. So please be patient and dont quickly make a issue. Its really tough for me to do anything since the dev menu is broken in the discord app.  
-> Oringial issue: https://github.com/BlackSparowYT/Zelk-Discord-Theme-Fixes/issues/21
+> Discord has updated their app and as now working again with dev menu open so i will continue updating this theme!
 
 > [!IMPORTANT]  
 > I make these fixes based on my own color scheme. I have seen some issues where running light colors can break this. I suggest not using any light accent colors! (FYI i run #3265a2 as my accent color). Sometimes i try to check the other themes aswell but i cant always do it.
@@ -26,6 +25,23 @@ download the repository. save the files somewhere and copy the file path to it. 
   
 I high suggest not doing this. The files get updated regularly and you will need to keep downloading the new versions yourself. Else they will get updated automatically!
 
+
+## Addons:
+
+### Custom icon:
+Requested in [[FR] Custom Home Logo](https://github.com/BlackSparowYT/Zelk-Discord-Theme-Fixes/issues/20) you can now change the default discord logo to any image you want.
+
+To use this add this line in the zelk theme:
+```
+@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/cust-icon.css);
+```
+Then scroll to the bottom of the zelk theme and add this:
+```
+:root {
+    --cust-home-icon: url('put_link_to_image_here');
+}
+```
+Make sure to replace the `put_link_to_image_here` with the link to your image. I suggest only using a square transparent picture!
 
 ## Compatibility with other plugins?
 These fixes have compatibility with other plugins. current it supports: Radial Status & Show Badges In Chat.
