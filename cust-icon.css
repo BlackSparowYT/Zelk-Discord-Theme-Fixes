@@ -1,0 +1,11 @@
+/* Change Home Screen Discord Logo */
+.wrapper_d281dd[ data-list-item-id="guildsnav___home"] .childWrapper__01b9c path {
+    fill: transparent;
+}
+
+.wrapper_d281dd[ data-list-item-id="guildsnav___home"] .childWrapper__01b9c {
+
+    background: var(--cust-home-icon) center/contain no-repeat;
+    width: 38px;
+    height: 38px;
+}
