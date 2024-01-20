@@ -659,7 +659,7 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
-/** TEMP CHANGES TO MAKE ZELK SOMEWHAT WORKING! **/
+/** New changes for zelk! I will walk over the old code soon to see what i can re use **/
 
 
 /** Servers || channelist && More **/
@@ -711,7 +711,7 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
-/** Voice Chats > Quick actions **/
+/** Voice Chats || Quick actions **/
 
 .button__66e8c .buttonColor_a6eb73, .button__66e8c.buttonColor_a6eb73 {
     background-color: var(--accent-color);
@@ -754,7 +754,7 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
-/** Popup user > tabs **/
+/** Popup user || tabs **/
 
 .theme-dark .root_a28985 .tabBarContainer__63f55 {
     background-color: rgba(0, 0, 0, 0.1);
@@ -801,7 +801,7 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
-/** Chat screen > Message box **/
+/** Chat screen || Message box **/
 
 .form__13a2c {
     background-color: var(--background-accent);
