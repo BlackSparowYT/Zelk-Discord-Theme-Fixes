@@ -698,16 +698,53 @@ div[aria-roledescription="Open Thread Button"] {
 .wrapper_bd2abe.minimum_ebf000 {
     background-color: var(--background-accent);
     border-bottom-left-radius: 20px;
+    position: relative;
 }
 
 .leftDivider__5b854 {
     background-color: var(--accent-color);
 }
 
-/* .resizeHandle__43b10 {
-    opacity: 0;
-    background-color: unset !important;
-} */
+.resizeHandle__43b10 {
+    height: 5px;
+    background-color: var(--background-1);
+}
+
+.wrapper_bd2abe.minimum_ebf000 .callContainer_cbde45 {
+    position: relative;
+    z-index: 20;
+    border-bottom-left-radius: 20px;
+    background-color: var(--background-accent);
+    border-top: 5px solid var(--background-1);
+}
+
+.wrapper_bd2abe.minimum_ebf000 .callContainer_cbde45::after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: -20px -20px 0px 0px var(--background-1);
+    background-color: transparent;
+    z-index: 10;
+}
+
+.wrapper_bd2abe.minimum_ebf000::after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    top: 100%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: -20px -20px 0px 0px var(--background-1);
+    background-color: transparent;
+    z-index: 10;
+}
 
 
 
