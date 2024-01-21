@@ -838,6 +838,20 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
+/** Chat screen || Unread messages **/
+
+.group-spacing-16 .divider__8cf56.beforeGroup__1e5e5 {
+    border-top: 1px solid var(--button-accent-hover);
+}
+
+.unreadPill__715fc {
+    --divider-color: var(--button-accent-hover);
+    background-color: var(--divider-color);
+    color: var(--background-1);
+}
+
+
+
 /** Chat screen || Message box **/
 
 .form__13a2c {
