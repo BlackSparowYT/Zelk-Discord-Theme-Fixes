@@ -667,6 +667,7 @@ div[aria-roledescription="Open Thread Button"] {
 .interactiveSelected_ec846b, .selected_d94cf9, .modeSelected__487d6 .name__8d1ec, .modeConnected__1c02e .name__8d1ec, .modeUnread_f74c03 .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda, .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda, .item_b7fb7e[aria-checked=true] { color: var(--background-primary); }
 .modeUnread_f74c03 .name__8d1ec, .modeUnread_f74c03 .icon_eff5d4 { color: var(--accent-color); }
 .modeSelected__487d6:hover .link__95dc0 { background-color: var(--background-tertiary) !important; }
+.modeMuted__0aeea .icon_eff5d4, .modeMuted__0aeea .name__8d1ec { color: var(--interactive-muted); opacity: .7; }
 
 
 
@@ -695,68 +696,19 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Voice Chats **/
 
-.wrapper_bd2abe.minimum_ebf000 {
-    background-color: var(--background-accent);
-    border-bottom-left-radius: 20px;
-    position: relative;
-}
-
-.leftDivider__5b854 {
-    background-color: var(--accent-color);
-}
-
-.resizeHandle__43b10 {
-    height: 5px;
-    background-color: var(--background-1);
-}
-
-.wrapper_bd2abe.minimum_ebf000 .callContainer_cbde45 {
-    position: relative;
-    z-index: 20;
-    border-bottom-left-radius: 20px;
-    background-color: var(--background-accent);
-    border-top: 5px solid var(--background-1);
-}
-
-.wrapper_bd2abe.minimum_ebf000 .callContainer_cbde45::after {
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    box-shadow: -20px -20px 0px 0px var(--background-1);
-    background-color: transparent;
-    z-index: 10;
-}
-
-.wrapper_bd2abe.minimum_ebf000::after {
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    top: 100%;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    box-shadow: -20px -20px 0px 0px var(--background-1);
-    background-color: transparent;
-    z-index: 10;
-}
+.wrapper_bd2abe.minimum_ebf000 { background-color: var(--background-accent); border-bottom-left-radius: 20px; position: relative; }
+.leftDivider__5b854 { background-color: var(--accent-color); }
+.resizeHandle__43b10 { height: 5px; background-color: var(--background-1); }
+.wrapper_bd2abe.minimum_ebf000 .callContainer_cbde45 { position: relative; z-index: 20; border-bottom-left-radius: 20px; background-color: var(--background-accent); border-top: 5px solid var(--background-1); }
+.wrapper_bd2abe.minimum_ebf000 .callContainer_cbde45::after { content: ''; position: absolute; pointer-events: none; top: 0; left: 0; width: 40px; height: 40px; border-radius: 20px; box-shadow: -20px -20px 0px 0px var(--background-1); background-color: transparent; z-index: 10; }
+.wrapper_bd2abe.minimum_ebf000::after { content: ''; position: absolute; pointer-events: none; top: 100%; left: 0; width: 40px; height: 40px; border-radius: 20px; box-shadow: -20px -20px 0px 0px var(--background-1); background-color: transparent; z-index: 10; }
 
 
 
 /** Voice Chats || Quick actions **/
 
-.button__66e8c .buttonColor_a6eb73, .button__66e8c.buttonColor_a6eb73 {
-    background-color: var(--accent-color);
-}
-
-.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7 {
-    background-color: var(--button-accent-active);
-}
+.button__66e8c .buttonColor_a6eb73, .button__66e8c.buttonColor_a6eb73 { background-color: var(--accent-color); }
+.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7 { background-color: var(--button-accent-active); }
 
 
 
@@ -769,33 +721,17 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Popup list **/
 
-.scroller__750f5 {
-    margin-right: 6px;
-}
-
-.separator__18122 {
-    border-bottom: 1px solid var(--accent-color);
-}
-
-.colorBrand__471df {
-    color: var(--accent-color);
-}
-
-.colorDefault__0b482:active:not(.hideInteraction__2790e) {
-    background-color: var(--accent-color);
-}
-
-.colorDefault__0b482.focused__27621 {
-    background-color: var(--accent-color);
-}
+.scroller__750f5 { margin-right: 6px; }
+.separator__18122 { border-bottom: 1px solid var(--accent-color); }
+.colorBrand__471df { color: var(--accent-color); }
+.colorDefault__0b482:active:not(.hideInteraction__2790e) { background-color: var(--accent-color); }
+.colorDefault__0b482.focused__27621 { background-color: var(--accent-color); }
 
 
 
 /** Popup user || tabs **/
 
-.theme-dark .root_a28985 .tabBarContainer__63f55 {
-    background-color: rgba(0, 0, 0, 0.1);
-}
+.theme-dark .root_a28985 .tabBarContainer__63f55 { background-color: rgba(0, 0, 0, 0.1); }
 
 
 
@@ -804,13 +740,8 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Sidebar lists (users / channels) **/
 
-.interactive__776ee {
-    transition: background .3s, background-color .3s, color .3s;
-}
-
-.wrapper__7bcde {
-    margin: 0 8px;
-}
+.interactive__776ee { transition: background .3s, background-color .3s, color .3s; }
+.wrapper__7bcde { margin: 0 8px; }
 
 
 
@@ -819,50 +750,22 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Chat screen **/
 
-.scrollerContent_c73942 {
-    background-color: var(--background-accent);
-}
-
-.embedFull__8dc21 {
-    border-color: var(--accent-color);
-}
-
-.content_d67847 {
-    color: var(--accent-color);
-    background: var(--background-accent);
-}
-
-.divider_b9338f {
-    border-top: thin solid var(--accent-color);
-}
+.scrollerContent_c73942 { background-color: var(--background-accent); }
+.embedFull__8dc21 { border-color: var(--accent-color); }
+.content_d67847 { color: var(--accent-color); background: var(--background-accent); }
+.divider_b9338f { border-top: thin solid var(--accent-color); }
 
 
 
 /** Chat screen || Unread messages **/
 
-.group-spacing-16 .divider__8cf56.beforeGroup__1e5e5 {
-    border-top: 1px solid var(--button-accent-hover);
-}
-
-.unreadPill__715fc {
-    --divider-color: var(--button-accent-hover);
-    background-color: var(--divider-color);
-    color: var(--background-1);
-}
+.group-spacing-16 .divider__8cf56.beforeGroup__1e5e5 { border-top: 1px solid var(--button-accent-hover); }
+.unreadPill__715fc { --divider-color: var(--button-accent-hover); background-color: var(--divider-color); color: var(--background-1); }
 
 
 
 /** Chat screen || Message box **/
 
-.form__13a2c {
-    background-color: var(--background-accent);
-}
-
-.theme-dark .form__13a2c:before {
-    content: unset;
-}
-
-.sansAttachButton__996a4 {
-    padding: 0 16px;
-    background-color: var(--background-primary);
-}
+.form__13a2c { background-color: var(--background-accent); }
+.theme-dark .form__13a2c:before { content: unset; }
+.sansAttachButton__996a4 { padding: 0 16px; background-color: var(--background-primary); }
