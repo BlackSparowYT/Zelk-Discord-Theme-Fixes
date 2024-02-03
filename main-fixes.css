@@ -731,17 +731,26 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Popup user || tabs **/
 
-.theme-dark .root_a28985 .tabBarContainer__63f55 { background-color: rgba(0, 0, 0, 0.1); }
+.root_a28985 .tabBarContainer__63f55 { background-color: rgba(0, 0, 0, 0.1); }
 
 
 
 
 
 
-/** Sidebar lists (users / channels) **/
+/** Sidebar lists **/
+
+/** Sidebar lists || users / channels **/
 
 .interactive__776ee { transition: background .3s, background-color .3s, color .3s; }
 .wrapper__7bcde { margin: 0 8px; }
+
+
+
+/** Sidebar lists || Username **/
+
+.withTagAsButton_cc125f:hover .title__10613, .withTagless__98b7d:hover .title__10613 { color: var(--background-tertiary); }
+.withTagAsButton_cc125f:hover .subtext__8f869 { color: var(--background-tertiary); }
 
 
 
@@ -757,6 +766,12 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
+/** Chat screen || Top bar **/
+
+.public-DraftEditorPlaceholder-root { padding: 0px !important; }
+
+
+
 /** Chat screen || Unread messages **/
 
 .group-spacing-16 .divider__8cf56.beforeGroup__1e5e5 { border-top: 1px solid var(--button-accent-hover); }
@@ -767,5 +782,17 @@ div[aria-roledescription="Open Thread Button"] {
 /** Chat screen || Message box **/
 
 .form__13a2c { background-color: var(--background-accent); }
-.theme-dark .form__13a2c:before { content: unset; }
+.form__13a2c:before { content: unset; }
 .sansAttachButton__996a4 { padding: 0 16px; background-color: var(--background-primary); }
+
+
+
+/** Chat screen || Auto complete box **/
+
+.list_c7a995 { width: 56px; }
+.selected_dc074f, .selected_dc074f:hover { background-color: var(--background-primary); }
+.autocomplete_df266d { background-color: var(--background-primary); }
+.autocompleteRow_a20cfa{ margin: 5px 0; }
+.clickable_f8437d[aria-disabled=false]>.base__76a71:hover { background-color: var(--background-tertiary); }
+.categoryHeader_f97a5f { margin-bottom: 10px; background-color: var(--background-tertiary); border-radius: 3px !important; }
+.wrapper__7a35f:after { content: unset; }
