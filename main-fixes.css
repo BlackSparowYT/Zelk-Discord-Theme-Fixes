@@ -662,7 +662,7 @@ div[aria-roledescription="Open Thread Button"] {
 /** New changes for zelk! I will walk over the old code soon to see what i can re use **/
 
 
-/** Servers || channelist && More **/
+/** Servers || channel list && More **/
 
 .interactiveSelected_ec846b, .selected_d94cf9, .modeSelected__487d6 .name__8d1ec, .modeConnected__1c02e .name__8d1ec, .modeUnread_f74c03 .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda, .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda, .item_b7fb7e[aria-checked=true] { color: var(--background-primary); }
 .modeUnread_f74c03 .name__8d1ec, .modeUnread_f74c03 .icon_eff5d4 { color: var(--accent-color); }
@@ -738,6 +738,18 @@ div[aria-roledescription="Open Thread Button"] {
 /** Voice Chats || Popup **/
 
 .root__46d4f { background: var(--background-tertiary); }
+
+
+
+
+
+
+/** Friends **/
+
+/** Friends || Add friend **/
+
+.addFriendInputWrapper__4bf8e { background-color: var(--background-tertiary); }
+.tabBar__73938 .addFriend__80542.addFriend__80542[aria-selected=true] { background-color: var(--background-tertiary); }
 
 
 
