@@ -128,13 +128,6 @@
 
 
 
-
-
-
-
-
-
-
 /* HOME */
 
 /** Home || User Menu **/
@@ -765,12 +758,14 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Sidebar lists **/
 
+.sidebar_ded4b5 nav { background: var(--background-tertiary) !important; }
+.scroller_f0f183 { background-color: var(--background-1); border-radius: 8px 8px 0 0; }
+
 /** Sidebar lists || users / channels **/
 
 .interactive__776ee { transition: background .3s, background-color .3s, color .3s; }
 .wrapper__7bcde { margin: 0 8px; }
 
-.themed_b152d4::after { content: ''; position: absolute; pointer-events: none; top: 100%; left: 0; width: 40px; height: 40px; border-radius: 20px; box-shadow: -20px -20px 0px 0px var(--background-1); background-color: transparent; z-index: 10; }
 .searchBar_e4ea2a, .header__104ca { box-shadow: unset; }
 .selected__0b1ad .header__104ca, .clickable__2d589 .header__104ca:hover { border-radius: var(--border-radius-2); }
 
@@ -778,6 +773,8 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Sidebar lists || Username **/
 
+.panels__58331 { background-color: var(--background-1); border-radius: 0 0 8px 8px; }
+.panels__58331 .container_ca50b9 { background-color: var(--background-1); border-radius: 0 0 8px 8px; }
 .withTagAsButton_cc125f:hover .title__10613, .withTagless__98b7d:hover .title__10613 { color: var(--background-tertiary); }
 .withTagAsButton_cc125f:hover .subtext__8f869 { color: var(--background-tertiary); }
 
@@ -786,18 +783,50 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
+/** Sidebar users **/
+
+/** Sidebar users || Memberlist **/
+
+.container_b2ce9c { background: var(--background-tertiary); }
+.members__9f47b { background: var(--background-tertiary); }
+.membersGroup__85843 { padding: 0 8px; height: 16px; }
+.member_b44d5d { background: var(--background-tertiary); }
+
+
+
+
+
+
 /** Chat screen **/
 
-.scrollerContent_c73942 { background-color: var(--background-accent); }
-.embedFull__8dc21 { border-color: var(--accent-color); }
-.content_d67847 { color: var(--accent-color); background: var(--background-accent); }
-.divider_b9338f { border-top: thin solid var(--accent-color); }
+.content__4bf10 { gap: 5px; margin-bottom: 10px; }
+.content__1a4fe { background-color: var(--background-tertiary); }
+.content__1a4fe:before { content: unset !important; }
+
+.chatContent__5dca8 { background-color: var(--background-1); border-radius: 8px; }
+.scroller__1f96e { border-radius: 8px 8px 0 0; }
+
+
+/** Chat screen || Second chat (forms / threads) **/
+
+.chatContent__5dca8 { border-radius: 8px; }
+.chat__1d65d:before { content: unset !important; }
 
 
 
 /** Chat screen || Top bar **/
 
 .public-DraftEditorPlaceholder-root { padding: 0px !important; }
+.themed_b152d4 { background: var(--background-tertiary) !important; }
+.children__32014:after { content: unset !important; }
+
+
+
+/** Chat screen || Search **/
+
+.searchBar_e0c60b { background-color: var(--background-1); border-radius: 8x; padding: 2px; height: unset; }
+.DraftEditor-editorContainer { margin: 0; }
+.scroller_c8d5ad { background-color: var(--background-tertiary); }
 
 
 
@@ -812,10 +841,8 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Chat screen || Message box **/
 
-.form__13a2c { background-color: var(--background-accent); }
 .form__13a2c:before { content: unset !important; }
-.sansAttachButton__996a4 { padding: 0 16px; background-color: var(--background-primary); }
-
+.sansAttachButton__996a4 { padding: 0 16px; background-color: var(--background-tertiary); }
 
 
 /** Chat screen || Auto complete box **/
