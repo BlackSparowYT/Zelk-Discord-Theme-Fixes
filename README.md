@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> Discord has updated their app and as now working again with dev menu open so i will continue updating this theme!
+> I am updating this theme to a v2 if you still would like the old version (v1) please select that branch and copy to code in `main-fixes.css` and paste it in you zelk theme at the bottom
 
 > [!IMPORTANT]  
 > I make these fixes based on my own color scheme. I have seen some issues where running light colors can break this. I suggest not using any light accent colors! (FYI i run #3265a2 as my accent color). Sometimes i try to check the other themes aswell but i cant always do it.
