@@ -717,8 +717,6 @@ div[aria-roledescription="Open Thread Button"] {
 
 /** Popup menus **/
 
-
-
 /** Popup list **/
 
 .scroller__750f5 { margin-right: 6px; }
@@ -765,6 +763,8 @@ div[aria-roledescription="Open Thread Button"] {
 
 .interactive__776ee { transition: background .3s, background-color .3s, color .3s; }
 .wrapper__7bcde { margin: 0 8px; }
+.highlighted__7bba7 { color: var(--button-accent-hover); }
+.interactiveSelected_ec846b.selected_d94cf9 .highlighted__7bba7 { color: var(--background-1); }
 
 .searchBar_e4ea2a, .header__104ca { box-shadow: unset; }
 .selected__0b1ad .header__104ca, .clickable__2d589 .header__104ca:hover { border-radius: var(--border-radius-2); }
@@ -783,9 +783,7 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
-/** Sidebar users **/
-
-/** Sidebar users || Memberlist **/
+/** Memberlist **/
 
 .container_b2ce9c { background: var(--background-tertiary); }
 .members__9f47b { background: var(--background-tertiary); }
@@ -805,6 +803,7 @@ div[aria-roledescription="Open Thread Button"] {
 
 .chatContent__5dca8 { background-color: var(--background-1); border-radius: 8px; }
 .scroller__1f96e { border-radius: 8px 8px 0 0; }
+
 
 
 /** Chat screen || Second chat (forms / threads) **/
@@ -830,12 +829,17 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
+/** Chat screen || Date marking **/
+
+.group-spacing-16 .divider__8cf56.hasContent__8519e { background: var(--text-muted); }
+
+
 /** Chat screen || Unread messages **/
 
 .group-spacing-16 .divider__8cf56.beforeGroup__1e5e5 { border-top: 1px solid var(--button-accent-hover); }
 .unreadPill__715fc { --divider-color: var(--button-accent-hover); background-color: var(--divider-color); color: var(--background-1); }
 .isUnread__6f880 .content_d67847 { color: var(--button-accent-hover); }
-.custom-theme-background .isUnread__6f880, .isUnread__6f880 { border-color: var(--button-accent-hover); }
+.isUnread__6f880 { border-color: var(--button-accent-hover); }
 
 
 
@@ -845,24 +849,13 @@ div[aria-roledescription="Open Thread Button"] {
 .sansAttachButton__996a4 { padding: 0 16px; background-color: var(--background-tertiary); }
 
 
+
 /** Chat screen || Auto complete box **/
 
 .list_c7a995 { width: 56px; }
 .selected_dc074f, .selected_dc074f:hover { background-color: var(--background-primary); }
 .autocomplete_df266d { background-color: var(--background-primary) !important; }
 .autocompleteRow_a20cfa{ margin: 5px 0; }
-.clickable_f8437d[aria-disabled=false]>.base__76a71:hover { background-color: var(--background-tertiary); }
+.clickable_f8437d[aria-disabled=false] > .base__76a71:hover { background-color: var(--background-tertiary); }
 .categoryHeader_f97a5f { margin-bottom: 10px; background-color: var(--background-tertiary); border-radius: 3px !important; }
 .wrapper__7a35f:after { content: unset; }
-
-
-
-
-
-
-
-
-
-
-
-/** Sidebar (channels / dms) **/
