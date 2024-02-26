@@ -806,6 +806,19 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
+/** Chat screen || Code blocks **/
+
+.markup_a7e664 code { background: var(--background-tertiary); }
+
+
+
+/** Chat screen || Embeds **/
+
+.embedFull__8dc21 { background: var(--background-tertiary); }
+
+
+
+
 /** Chat screen || Second chat (forms / threads) **/
 
 .chatContent__5dca8 { border-radius: 8px; }
