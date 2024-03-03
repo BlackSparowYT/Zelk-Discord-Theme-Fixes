@@ -818,6 +818,11 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
+/** Chat screen || Timestamp **/
+
+.timestamp_a65714 { background-color: var(--accent-color); color: var(--background-1); }
+
+
 
 /** Chat screen || Second chat (forms / threads) **/
 

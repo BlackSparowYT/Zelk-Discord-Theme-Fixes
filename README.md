@@ -43,23 +43,14 @@ Then scroll to the bottom of the zelk theme and add this:
 ```
 Make sure to replace the `put_link_to_image_here` with the link to your image. I suggest only using a square transparent picture!
 
-## Compatibility with other plugins?
-These fixes have compatibility with other plugins. current it supports: Radial Status & Show Badges In Chat.
+### Remove shop button:
+This will remove the shop button above your dms list
 
-
-### Radial Status:
-To add the fixes for radial status add this line:
+To use this add this line in the zelk theme:
 ```
-@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/radialstatus-fixes.css);
+@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/remove-shop.css);
 ```
-after the intial @import. Also make sure you have installed the radial status theme!
-
-### SBIC (Show Badges In Chat):
-To add the fixes for radial status add this line:
-```
-@import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/sbic-fixes.css);
-```
-after the intial @import. Also make sure you have installed the Show Badges In Chat Plugin!
+And you are all done!
 
 
 ## Your help!
