@@ -759,7 +759,9 @@ div[aria-roledescription="Open Thread Button"] {
 .sidebar_ded4b5 nav { background: var(--background-tertiary) !important; }
 .scroller_f0f183 { background-color: var(--background-1); border-radius: 8px 8px 0 0; }
 
-/** Sidebar lists || users / channels **/
+
+
+/** Sidebar lists || Users / Channels **/
 
 .interactive__776ee { transition: background .3s, background-color .3s, color .3s; }
 .wrapper__7bcde { margin: 0 8px; }
@@ -771,7 +773,15 @@ div[aria-roledescription="Open Thread Button"] {
 
 
 
-/** Sidebar lists || Username **/
+/** Sidebar lists || Servers **/
+
+.platform-win .sidebar_ded4b5 { border-radius: 8px; }
+.animatedContainer__341f6 { border-radius: 8px; }
+.container__7c79d { position: relative; z-index: 100; }
+
+
+
+/** Sidebar lists || Users **/
 
 .panels__58331 { background-color: var(--background-1); border-radius: 0 0 8px 8px; }
 .panels__58331 .container_ca50b9 { background-color: var(--background-1); border-radius: 0 0 8px 8px; }
